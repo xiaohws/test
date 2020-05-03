@@ -1,0 +1,102 @@
+1.看视频把黑马系列C C++看完 大概已经过了半个月了 英语时间也到了
+2.中午休息就可以看汇编了
+
+3.看视频破解基础脱壳类fishc.com（和4一起短期看完）
+4.中午休息即看破解那本书（和3一起短期看完）
+
+5.看虚拟机书（长期的过程）
+6.win32
+7.linux高级
+
+spring源码解析
+
+linux	y
+
+linux高级编程
+	
+redis	y
+
+webservice  
+
+FreeMarker 
+
+存储过程  
+
+zookeeper 
+
+dubbo	y
+
+
+springboot学完，特别是集成	y
+
+排序算法
+
+算法与数据结构
+
+JMM java内存模型
+
+JVM java虚拟机
+
+网络
+
+
+一切以考上为重中之重，考上后想学啥学啥！！
+黑马商城做
+
+汇编
+c/c++
+windows 编程
+linux（kali） 内核开发 应用开发  网络攻防(不知道是不是网络编程)
+网络渗透
+
+
+反汇编
+一些软件 比如 拿基址
+操作系统
+		
+
+shiro
+
+
+java基础笔记整理完  
+
+spring cloud
+
+python
+
+
+常用算法：多练习 弄熟悉
+
+Java基础扎实，熟悉nio、多线程、Socket等相关技术
+
+熟悉分布式消息中间件(RabbitMq、ActiveMq等)，
+熟悉缓存中间件(Redis、Memcached等)并能针对应用场景合理使用和优化配置
+
+Oracle
+
+熟悉spring、springmvc、spring boot、mybatis、mybatis-plus、shiro、druid、dubbo等Java主流框架；
+
+mongodb
+
+6.	熟悉idea、powerdesigner、hbuilder，zookeeper等工具；
+
+8.	熟悉linux，并熟练使用xshell5工具与掌握linux命令；
+
+
+
+、两年以上Java开发经验，基础扎实，代码规范，对Java三大特性、多线程、并发、网络编程较深刻认识理解；
+
+掌握分布式系统的设计和应用，分布式、缓存、消息等机制，能对分布式常用技术进行合理 应用并解决问题；
+
+3.熟悉java，spring，spring-boot，hibernate，webservice，freemaker，redis，zookeeper，json,oralcel,mysql等主流技术；
+
+
+
+
+
+
+
+
+ @Excel(name = "部门编号", type = Type.IMPORT)
+    private Long deptId;
+注解

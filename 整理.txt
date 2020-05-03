@@ -1,0 +1,10 @@
+
+ select * from offer_inst where offer_inst_id='122132945015'; -- 2958743110
+ INSERT INTO `offer_inst`(`offer_inst_id`, `prod_inst_id`, `offer_id`, `prod_type_cd`, `use_cust_id`, `create_date`, `state_cd`, `eff_date`, `exp_date`, `col_desc`, `col1`, `col2`, `col3`, `col4`, `col5`, `col6`, `col7`, `col8`, `col9`, `col10`, `col11`, `col12`, `col13`, `col14`, `col15`, `lan_id`, `comp_inst_id`, `chg_id`, `cust_order_id`, `order_item_id`, `action_type`, `end_time`, `beg_time`, `create_staff`, `eff_date_type`, `exp_date_type`, `spare_fld0`, `seq`, `refer_date`, `rel_comp_inst_id`, `group_id`, `main_prod_inst_id`, `cust_id`, `status_date`, `distributor_id`, `d_order_item_id`, `finish_time`, `extend_prod_offer_inst_id`, `offer_agree_id`, `create_org_id`, `update_staff`, `update_date`, `busi_mod_date`, `last_order_item_id`, `remark`, `exp_proc_method`, `offer_kind`, `owner_cust_id`, `region_id`, `offer_type`, `status_cd`, `ext_offer_inst_id`, `segment_id`) VALUES (122132945015, 122132945015, 1320200, '01', 2958743110, '2016-05-24 17:23:12', '001', '2016-06-01 00:00:00', '2033-01-31 23:59:59', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 23, 122132945015, 21183136394, NULL, NULL, 'K', 99999999999999, 1, NULL, '1100', '1000', 122132945015, 3, NULL, NULL, NULL, NULL, 2958743110, '2016-05-24 17:25:32', '-1', NULL, NULL, NULL, NULL, 309, NULL, '2016-05-24 17:25:32', '2016-05-24 17:25:32', NULL, NULL, '30', 11, 800002964224, 309, '11', '1000', NULL, NULL); 
+
+
+update PROD_INST_FUNC set col2='301510575' where PROD_INST_id='122704821324';
+DELETE from order_item_change where order_item_id='2320043041855086';
+DELETE from order_item where order_item_id='2320043041855086';
+DELETE from wq_construct where order_item_id='2320043041855086';
+DELETE from customer_order where cust_order_id='8232004306178492';
